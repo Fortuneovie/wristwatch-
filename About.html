@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal Ecommerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="header">
+    <div class="container">
+        <div class="navbar">
+          <div class="logo">
+              <a href="index.html"><img src="authen.logo.png" width="125px"></a>
+
+          </div>
+          <nav>
+              <ul id="menuItems">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="product.html">Products</a></li>
+                  <li><a href="About.html">About</a></li>
+                  <li><a href="">Contacts</a></li>
+                  <li><a href="account.html">Account</a></li>
+              </ul>
+          </nav>
+         <a href="addcart.html"> <img src="cart icon.png" width="30px" height="30px"></a>
+          <i class="fa fa-bars"  onclick ="menutoggle()"></i>
+        </div>
+
+            <div class="heading">
+                <h1>About us</h1>
+                <p>Watches evolved from portable spring-driven clocks, which first appeared in 15th-century Europe. The first timepieces to be worn, made in the 16th century beginning in the German cities of Nuremberg and Augsburg,<br> were transitional in size between clocks and watches.[14] Nuremberg clockmaker Peter Henlein (or Henle or Hele) 1485 of the watch. <br>[15][16] However, other German clockmakers were creating miniature timepieces during this period, and there is no evidence Henlein was the first.[16][17] <br>
+
+                    Watches were not widely worn in pockets until the 17th century. One account suggests that the word "watch" came from the Old English word woecce   which meant "watchman" because town watchmen used the technology to keep track of their shifts at work.[18] Another says that the term came from 17th-century sailors, <br> who used the new mechanisms to time the length of their shipboard watches (duty shifts).</p>
+            </div>
+
+            <div class="container">
+                <section class="about">
+                    <div class="about-image">
+                        <img src="crystal wat.jpeg" alt="">
+                    </div>
+                    <div class="about-content">
+                        <h2>Warm and soft wear</h2>
+                        <p>Watches were not widely worn in pockets until the 17th century. One account suggests that the word "watch" came from the Old English word woecce <br> which meant "watchman" – because town watchmen used the technology to keep track of their shifts at work. <br> Another says that the term came from 17th-century sailors, who used the new mechanisms to time the length of their shipboard watches (duty shifts).</p>
+                        <a href="" class="read-more">Read more</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+           
+             <!-- footer -->
+                <div class="footer">
+                    <div class="container">
+                        <div class="line">
+                           
+                            <div class="footer-col-1">
+
+                                <h3>Download our app</h3>
+                                <p>Download our app for Andriod and ios mobile phoe</p>
+                                <div class="app-logo">
+                                    <img src="playstore2.jpeg">
+                                    <img src="app store.jpeg">
+                                </div>
+                            </div>
+                           
+                            <div class="footer-col-2">
+                                <h3>Useful Liinks</h3>
+                                <ul>
+                                    <li>Facebook</li>
+                                    <li>Twitter</li>
+                                    <li>Instagram</li>
+                                    <li>Youtube</li>
+                                </ul>
+                            </div>
+                        
+                            <div class="footer-col-3">
+                                <h3>Follow Us</h3>
+                                <ul>
+                                    <li>Facebook</li>
+                                    <li>Twitter</li>
+                                    <li>Instagram</li>
+                                    <li>Youtube</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="copyright">Copyright 2023-Easy Tutorials</p>
+                    </div>
+                </div>
+        <!-- js for toggle menu -->
+
+        <script>
+            let MenuItems = document.getElementById("menuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px";
+
+                }
+            }
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>s
